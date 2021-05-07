@@ -1,2 +1,2 @@
-# 2QProjPotassiumSalvador
-A 2nd Quarter project for Computer Science. 
+# Mikko's Repository
+A repository for all websites that the author has made.
