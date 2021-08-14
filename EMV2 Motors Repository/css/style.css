@@ -1,0 +1,60 @@
+@font-face {font-family: Racing Sans One; src: url("../Racing_Sans_One/RacingSansOne-Regular.ttf")}
+
+* {box-sizing: border-box}
+
+body {background-color: deepskyblue}
+
+div {margin: 20px; border: 5px inset brown; padding: 10px; background-color: lightgreen}
+
+div > div > div {display: table-row-group; margin: 10px; background-color: green}
+
+div > div > div > div {float: right; box-sizing: border-box; display: table-cell; text-align: center; overflow: auto; font-family: "Racing Sans One", Futura, Verdana, Arial; font-size: 20px}
+
+h1 {text-align: center; font-family: "Racing Sans One", Futura, Verdana, Arial; font-size: 30px}
+
+h2 {text-align: center; font-family: "Racing Sans One", Futura, Verdana, Arial; font-size: 26px}
+
+h4 {text-align: center; font-family: "Racing Sans One", Futura, Verdana, Arial; font-size: 24px}
+
+p, ul, ol {font-family: "Racing Sans One", Futura, Verdana, Arial; font-size: 20px}
+
+a:link {color: black; font-weight: bold; font-family: "Racing Sans One", Futura, Verdana, Arial}
+
+a:visited {color: black; text-decoration: underline}
+
+a:hover {color: red; text-decoration: none}
+
+.Facebook {background: url('../images/Image%20Sprites.png') no-repeat 0 0; position: static; -33px; height: -33px; border: none; padding: none; margin: none; width: 40px; height: 40px; float: left}
+
+.Facebook:hover {background: url('../images/Image%20Sprites.png') no-repeat 0 -40px; position: static; width: -30px; height: -30px; border: none; padding: none; margin: none; width: 40px; height: 40px; float: left}
+
+.Email {background: url('../images/Image%20Sprites.png') no-repeat -35px 0; position: static; width: -33px; height: -33px; border: none; padding: none; margin: none; width: 40px; height: 40px; float: left}
+
+.Email:hover {background: url('../images/Image%20Sprites.png') no-repeat -35px -40px; position: static; width: -33px; height: -33px; border: none; padding: none; margin: none; width: 40px; height: 40px; float: left}
+
+.Discord {background: url('../images/Image%20Sprites.png') no-repeat -70px 0; position: static; width: -33px; height: -33px; border: none; padding: none; margin: none; width: 40px; height: 40px; float: left}
+
+.Discord:hover {background: url('../images/Image%20Sprites.png') no-repeat -70px -40px; position: static; width: -33px; height: -33px; border: none; padding: none; margin: none; width: 40px; height: 40px; float: left}
+
+.center {display: block; margin-left: auto; margin-right: auto}
+
+.table {background-color: azure; display = "table-row-group"} 
+
+.menu {width: 31%; height: 300px; border:10px solid black; padding: 10px; float: left; display: table-row-group; margin: 10px; background-color: lawngreen}
+
+.menu:hover {position: relative; top: -5px; right: -5px}
+
+.content {width: 48.25%; height: 300px; border:10px solid black; padding: 10px; float: left; margin: 10px; overflow: auto; background-color: lightseagreen}
+
+.content:hover {position: relative; top: -5px; right: -5px}
+
+#author {width: 45%; height: 300px; float: right}
+
+@media only screen and (max-width: 800px) {
+    .menu {width: 40%}
+    #author {width: 100%}
+    }
+
+@media only screen and (max-width: 1250px) {
+    .content {width: 97.5%; position: static}
+    }
